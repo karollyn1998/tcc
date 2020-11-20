@@ -16,15 +16,19 @@ $procedimento = $_POST["procedimento"];
 $viatura = $_POST["viatura"];
 $tipoAt = $_POST["tipoAt"];
 
-echo "$descricao ","$situacao ","$data ","$hora ", "$chefsoc ", "$numpes ","$camnesc ", "$cidade ","$bairro ", "$compl ", "$pontoref ","$procedimento ", "$viatura ","$tipoAt ";
+/*echo "$descricao ","$situacao ","$data ","$hora ", "$chefsoc ", "$numpes ","$camnesc ", "$cidade ","$bairro ", "$compl ", "$pontoref ","$procedimento ", "$viatura ","$tipoAt ";*/
+try{
+$sql = "INSERT INTO atend (descricao,situacao,data, hora, chefsoc, numpes, camnesc, cidade, bairro, compl, pontoref, procedimento, viatura,tipoAt)
+  VALUES ('$descricao', '$situacao','$data', '$hora', '$chefsoc', '$numpes','$camnesc', '$cidade','$bairro', '$compl', '$pontoref','$procedimento', '$viatura', '$tipoAt')";
 
-$sql = "INSERT INTO atend (descricao,situacao,data, hora, chefsoc, numpes, camnesc, cidade, bairro, compl, pontoref, procedimento, viatura,tipoAt)VALUES ('$descricao', '$situacao','$data', '$hora', '$chefsoc', '$numpes','$camnesc', '$cidade','$bairro', '$compl', '$pontoref','$procedimento', '$viatura', '$tipoAt')";
-
-if ($conn->query($sql) === TRUE) {
+ // use exec() because no results are returned
+  $conn->exec($sql);
   echo "New record created successfully";
-} else {
-  echo "Error: " . $sql . "<br>" ;
+} catch(PDOException $e) {
+  echo $sql . "<br>" . $e->getMessage();
 }
+
+$conn = null;
 
 
 ?>
