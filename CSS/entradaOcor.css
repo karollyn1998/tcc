@@ -1,0 +1,174 @@
+body,ul,li,p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+body{
+    background-image: url("../imagens/fundo2.jpg");
+    background-position: 50% 90%;
+    color : white;
+    font-family: arial;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+h1{
+text-align: center;
+padding: 20px;
+
+}
+
+.header{
+	background: #AB0909; 
+	display: flex;
+	justify-content: space-between; 
+	padding:12px;
+	flex-wrap: wrap;
+}
+
+.perg1{
+ position: absolute;
+ bottom: 404;
+ left: 30;
+    }
+.perg2{
+ position: absolute;
+ bottom: 316;
+ left: 30;
+    }
+.perg3{
+ position: absolute;
+ bottom: 228;
+ left: 30;
+    }
+.perg4{
+ position: absolute;
+ bottom: 142;
+ left: 30;
+    }
+.perg5{
+ position: absolute;
+ bottom: 58;
+ left: 30;
+ }
+.perg11{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: grey;
+    outline: none;
+    position: absolute;
+    bottom: 336; 
+    left: 2;
+} 
+.perg21{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: grey;
+    outline: none;
+    position: absolute;
+    bottom: 246; 
+    left: 2;
+} 
+.perg31{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: grey;
+    outline: none;
+    position: absolute;
+    bottom: 160; 
+    left: 2;
+} 
+.perg41{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: grey;
+    outline: none;
+    position: absolute;
+    bottom: 74; 
+    left: 2;
+} 
+.perg51{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: grey;
+    outline: none;
+    position: absolute;
+    bottom: -10; 
+    left: 2;
+} 
+.btn{
+    display: block;
+    height: 55px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute; 
+    left: 550px;
+    bottom: -80px;
+}
+
+.btn[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-ms-input-placeholder{
+    color: #fff;
+}
+

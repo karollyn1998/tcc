@@ -1,0 +1,83 @@
+<html lang="pt-br">
+</head>
+      <meta charset="utf-8"/>
+      <title>Projeto Bombeiro</title>
+      <link rel="stylesheet" href="CSS/bomb.css">
+     <body>
+       <header class="header">
+            <a href="/">SOS Bombeiros</a>
+            <nav>
+              <a href="teste.html"><img src="imagem/voltar.png" width="30"class="rounded float-left" ></a>
+            </nav>
+       </header>
+
+       <div id="cadastro-atend">
+          <h1>CADASTRAR BOMBEIROS</h1>
+
+            <form method="POST" action="bombeiro.php">
+                 <p class="cargo">Cargo</p>
+                 <select class="select" name="cargo">
+                   <option></option>
+                   <option>Coronel</option>
+                   <option>Tenente coronel</option>
+                   <option>Major</option>
+                   <option>Capitão</option>
+                   <option>1ºTenente</option>
+                   <option>2ºTenente </option>
+                   <option>Subtenente </option>
+                   <option>1ºSargento</option>
+                   <option>2ºSargento</option>
+                   <option>Soldado</option>
+                   <option>Cabo</option>
+                   <option>Aluno oficial</option>
+                   <option>Aluno CFP</option>
+                   <option>Auxiliar de enfermagem</option>
+                 </select>
+
+                <p class="sexo">Sexo</p>
+                <select class="select1"  name="sexo">
+                   <option></option>
+                   <option>Masculino</option>
+                   <option>Feminino</option>
+                   <option>outros</option>
+                </select>
+               
+                <p class="estadoC">Estado civil</p>
+                <select class="select2" name="estadoC">
+                   <option></option>
+                   <option>Casado</option>
+                   <option>solteiro</option>
+                   <option>Divorciado</option>
+                   <option>Viuvo</option>  
+                   <option>União estavel</option>           
+                 </select>
+
+                 <p class="tipoS">Tipo sanguíneo</p>
+                 <select class="select3" name="tipoS">
+                   <option></option>
+                   <option>A+</option>
+                   <option>A-</option>
+                   <option>B+</option>
+                   <option>B-</option>
+                   <option>O+</option>
+                   <option>O-</option>
+                   <option>AB+</option>
+                   <option>AB-</option>
+                 </select>
+      
+                 <p class="nomeC">Nome completo</p><input type="text" name="nomeC">
+                 <p class="end">Endereço</p><input class="end1" type="text" name="endereco">
+                 <p class="email">Email</p><input class="email1" type="email" name="email">
+                 <p class="fone">Telefone</p><input class="cll" type="text" name="fone">
+                 <p class="dataN">Data de nascimento</p><input class="dataNasc" type="Date" name="dataNasc">
+                 <button class="btn" type="submit" > Salvar </button>
+                 <button class="btn-list" type="submit" > Lista </button>
+        </form>
+
+         <footer>
+          <h3>Desenvolvido por: Karollyn Yehudi & Maria Eduarda</h3>
+        </footer>
+        
+        </div>
+    </body>
+ </html>

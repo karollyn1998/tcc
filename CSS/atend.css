@@ -1,0 +1,412 @@
+body,ul,li,p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+body{
+    background-image: url("../imagens/fundo2.jpg");
+    background-position: 50% 90%;
+    color : white;
+    font-family: arial;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+h3{
+position: absolute;
+left: 2px;
+bottom: 1px;
+font-size: 6pt;
+font-family: arial;
+
+}
+footer{
+    background: #AB0909; 
+    position: absolute;
+    width: 97.3%;
+    padding:18px;
+    bottom: -260px;
+
+}
+h1{
+text-align: center;
+padding: 10px;
+
+}
+.voltar{
+position: absolute;
+bottom: 624;
+left: 1310;
+}
+
+.logo{
+position: absolute;
+bottom: 560;
+left: -14;
+}
+.header{
+	background: #AB0909; 
+	display: flex;
+	justify-content: space-between; 
+	padding:24px;
+	flex-wrap: wrap;
+}
+.cid{
+ position: absolute;
+ bottom: 466;
+ left: 30;
+    }
+.bairro{
+ position: absolute;
+ bottom: 466;
+ left: 484;
+    }
+.numV{
+ position: absolute;
+ bottom: 466;
+ left: 940;
+    }
+.dAtend{
+ position: absolute;
+ bottom: 386;
+ left: 30;
+    }
+.horaAt{
+ position: absolute;
+ bottom: 386;
+ left: 480;
+    }
+.situAtend{
+ position: absolute;
+ bottom: 136;
+ left: 1044;
+}
+.pontoRef{
+ position: absolute;
+ bottom: 302;
+ left: 30;
+    }
+.comple{
+ position: absolute;
+ bottom: 220;
+ left: 30;
+    }
+.chef{
+ position: absolute;
+ bottom: 52;
+ left: 30;
+    }
+.proc{
+ position: absolute;
+ bottom: 302;
+ left: 1044;
+    }
+.tipoA{
+ position: absolute;
+ bottom: 136;
+ left: 30;
+    }
+.veic{
+ position: absolute;
+ bottom: 220;
+ left: 1044;
+}
+.desc{
+ position: absolute;
+ bottom: -30;
+ left: 30;
+    }
+.veicN{
+ position: absolute;
+ bottom: 386;
+ left: 940;
+    }
+.select{
+    display: block;
+    height: 55px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 236; 
+    left: 1016;
+} 
+.select1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 400; 
+    left: 900;
+} 
+.select2{
+    display: block;
+    height: 55px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 154; 
+    left: 1016;
+} 
+input{
+    display: block;
+    height: 55px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 400; 
+    left: 898;
+} 
+.dAtend1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 318; 
+    left: 2;
+} 
+.horaAt1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 318; 
+    left: 450;
+} 
+
+.situAtend1{
+    display: block;
+    height: 55px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 66; 
+    left: 1016;
+} 
+.cid1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 400; 
+    left: 2;
+} 
+.bairro1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 400; 
+    left: 450;
+} 
+.pontoRef1{
+    display: block;
+    height: 55px;
+    width: 1000px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 236; 
+    left: 2;
+} 
+.comple1{
+    display: block;
+    height: 55px;
+    width: 1000px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 154; 
+    left: 2;
+} 
+.tipoA1{
+    display: block;
+    height: 55px;
+    width: 1000px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 66; 
+    left: 2;
+} 
+.chef1{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: -14; 
+    left: 2;
+} 
+.desc1{
+    display: block;
+    height: 55px;
+    width: 1320px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: -100; 
+    left: 2;
+} 
+.veicN1{
+    display: block;
+    height: 55px;
+    width: 416px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: 318; 
+    left: 900;
+} 
+
+.btn{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: -190; 
+    left: 250; 
+}
+.btn-list{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute;
+    bottom: -190; 
+    left: 680; 
+}
+ 
+.btn[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}
+.btn-list[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}

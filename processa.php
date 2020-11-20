@@ -1,0 +1,1 @@
+$cidade = $_POST["cidade"];

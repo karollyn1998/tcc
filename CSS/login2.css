@@ -1,0 +1,179 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+    background-image: url("../imagens/fundo2.jpg");
+    background-position: 50% 90%;
+    color : white;
+    font-family: arial;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h3{
+position: absolute;
+left: 2px;
+bottom: 10px;
+font-size: 6pt;
+font-family: arial;
+
+}
+footer{
+    background: #AB0909; 
+    position: absolute;
+    width: 97.3%;
+    padding:18px;
+    bottom: 0px;
+
+}
+h1{
+text-align: center;
+padding: 60px;
+
+}
+
+.txt{
+  position: absolute; 
+  left: 600px;
+  bottom: 184px;
+  font-family: arial; 
+  font-size: 16px;
+
+}
+.p1{
+
+display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none; 
+    position: absolute; 
+    left: 200px;
+    bottom: 290px;
+
+}
+.p2{
+
+display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none; 
+    position: absolute; 
+    left: 660px;
+    bottom: 290px;
+
+}
+.nomeC{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none; 
+    position: absolute; 
+    left: 200px;
+    bottom: 380px;
+
+}
+.cpf{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none; 
+    position: absolute; 
+    left: 660px;
+    bottom: 380px;
+
+}
+.btn{
+    display: block;
+    height: 55px;
+    width: 420px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: black;
+    outline: none;
+    position: absolute; 
+    left: 470px;
+    bottom: 200px;
+}
+div#corpo-form{
+
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#corpo-form-cad{
+    
+    width: 420px;
+    margin: 60px auto 0px auto;
+
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 1px;   
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}
+.btn[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-ms-input-placeholder{
+    color: #fff;
+}
+

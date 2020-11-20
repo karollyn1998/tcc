@@ -1,0 +1,67 @@
+<html lang="pt-br">
+</head>
+      <meta charset="utf-8"/>
+      <title>Projeto Bombeiro</title>
+      <link rel="stylesheet" href="CSS/atend.css">
+     <body>
+       <header class="header">
+
+        <nav class="logo">
+          <a href="teste.html"><img src="imagem/Logo.png" width="150"class="rounded float-left" ></a>
+        </nav>
+       	<nav class="voltar">
+       	  <a href="teste.html"><img src="imagem/voltar.png" width="30"class="rounded float-left" ></a>
+       	</nav>
+       </header>
+
+       <div id="cadastro-atend">
+          <h1>CADASTRAR ATENDIMENTO</h1>
+
+
+         <form method="POST" action="atendimento.php">
+         <p class="proc">Procedimento</p>
+            <select class="select" name="procedimento">
+             <option value="a">a</option>
+             <option value="b">b</option>
+             <option value="c">c</option>
+             </select>     
+
+         <p class="veic">Viaturas utilizadas</p>
+            <select class="select2" name="viatura">
+            <option value="Caminhão">Caminhão grande</option>
+            <option value="Caminhão pequeno">Caminhão pequeno</option>
+            <option value="Ambulancia">Ambulancia</option>
+            <option value="Carro">Carro</option>
+            </select>
+      
+        <p class="situAtend">Situação do atendimento</p>
+            <select class="situAtend1" name="situacao">
+            <option value="Não atendido">Não atendido</option>
+            <option value="Em andamento">Em andamento</option>
+            <option value="Concluido">Concluido</option>
+            </select>
+
+
+       <p class="dAtend">Data do atendimento</p><input class="dAtend1" type="Date" name="data">
+       <p class="horaAt">Horário do atendimento </p><input class="horaAt1" type="time" name="hora">
+       <p class="veicN">Viaturas necessarias</p><input type="number" min="0" class="veicN1" name="camnesc">
+      <p class="numV">Número  de vitimas</p><input  class="select1" type="number" min= "0" name="numpes">
+       <p class="cid">Cidade</p><input class="cid1" type="text" name="cidade">
+       <p class="bairro">Bairro</p><input class="bairro1" type="text" name="bairro">
+       <p class="pontoRef">Ponto de referência</p><input class="pontoRef1" type="text" name="pontoref">
+       <p class="comple">Complemento</p><input class="comple1" type="text" name="compl">
+       <p class="tipoA">Tipo de atendimento</p><input class="tipoA1" type="text" name="tipoAt">
+       <p class="chef">Chefe de socorro</p><input class="chef1" type="text" name="chefsoc">
+       <p class="desc">Descrição</p><input class="desc1" type="text" name="descricao">
+       <button class="btn" type="submit" > Salvar </button>
+       <button class="btn-list" type="submit" > Lista </button>
+ 
+      </form>
+      
+</div>
+<footer>
+          <h3>Desenvolvido por: Karollyn Yehudi & Maria Eduarda</h3>
+        </footer>
+
+</body>
+</html>

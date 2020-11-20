@@ -1,0 +1,164 @@
+body,ul,li,p{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+body{
+    background-image: url("../imagens/fundo2.jpg");
+    background-position: 50% 90%;
+    color : white;
+    font-family: arial;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+h3{
+position: absolute;
+left: 2px;
+bottom: 1px;
+font-size: 6pt;
+font-family: arial;
+
+}
+footer{
+    background: #AB0909; 
+    position: absolute;
+    width: 97.3%;
+    padding:18px;
+    bottom: 0px;
+
+}
+.voltar{
+position: absolute;
+bottom: 624;
+left: 1328;
+}
+
+.logo{
+position: absolute;
+bottom: 560;
+left: -14;
+}
+.nome{
+    position: absolute;
+    bottom: 610px;
+    left: 46px;
+
+}
+h1{
+text-align: center;
+padding: 20px;
+
+}
+h2{
+position: absolute;
+left: -12px;
+bottom: 570px;
+
+}
+.header{
+	background: #AB0909; 
+	display: flex;
+	justify-content: space-between; 
+	padding:24px;
+	flex-wrap: wrap;
+}
+.veic{
+ position: absolute;
+ bottom: 170px;
+ left: 268px ;
+ }
+ .bomb{
+ position: absolute;
+ bottom: 170px;
+ left:498px ;
+ }
+ .atend{
+ position: absolute;
+ bottom: 170px;
+ left:752px ;
+ }
+.cham{
+ position: absolute;
+ bottom: 170px;
+ left:1020px ;
+ }
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid white ;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.01);
+    color: white;
+    outline: none;
+}
+div#corpo-form{
+
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+div#corpo-form-cad{
+    
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+div#corpo-form h1,div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+div#cadastro-atend{
+    width: 420px;
+    margin: 30px  ;
+    margin-top: 60px;
+}
+div#cadastro-atend h1{
+    text-align: center;
+    padding: 2px;
+}
+a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+input[type=submit]{
+   background-color: rgb(250, 214, 11);
+   border: none;
+   cursor: pointer;
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+::-moz-placeholder{
+    color: #fff;
+}
+
+/*flexbox */
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.flex > div{
+	flex: 1 1 200px;
+	margin: 10px;
+	margin-top: 200px;
+	text-align: center;
+}
+
