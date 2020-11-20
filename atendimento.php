@@ -16,8 +16,9 @@ $procedimento = $_POST["procedimento"];
 $viatura = $_POST["viatura"];
 $tipoAt = $_POST["tipoAt"];
 
+echo "$descricao ","$situacao ","$data ","$hora ", "$chefsoc ", "$numpes ","$camnesc ", "$cidade ","$bairro ", "$compl ", "$pontoref ","$procedimento ", "$viatura ","$tipoAt ";
 
-$sql = "INSERT INTO atend (descricao,situacao,data, hora, chefsoc, numpes, camnesc, cidade, bairro, compl, pontoref, procedimento, viatura,tipoAt)VALUES ($descricao, $situacao,$data, $hora, $chefsoc, $numpes,$camnesc, $cidade,$bairro, $compl, $pontoref,$procedimento, $viatura, $tipoAt)";
+$sql = "INSERT INTO atend (descricao,situacao,data, hora, chefsoc, numpes, camnesc, cidade, bairro, compl, pontoref, procedimento, viatura,tipoAt)VALUES ('$descricao', '$situacao','$data', '$hora', '$chefsoc', '$numpes','$camnesc', '$cidade','$bairro', '$compl', '$pontoref','$procedimento', '$viatura', '$tipoAt')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
